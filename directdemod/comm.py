@@ -91,7 +91,7 @@ class commSignal:
         self.updateSignal(filt.applyOn(self.signal))
         return self
 
-    def bwLim(self, tsampRate, strict = False, uniq = "abcd"):
+    def bwLim(self, tsampRate, strict=False, uniq="abcd"):
 
         '''Limit the bandwidth by downsampling
 

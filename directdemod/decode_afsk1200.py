@@ -49,12 +49,12 @@ class decode_afsk1200:
             :obj:`int`: 0 if not found, 1 if found
         '''
 
-        #if self.__msg is None:
+        # if self.__msg is None:
         #    self.getMsg
 
         return self.__useful
 
-    @property
+    @property   
     def getMsg(self):
         '''Get the message from data
 

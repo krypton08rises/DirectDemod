@@ -33,16 +33,16 @@ class chunker:
         i = 0
 
         # create normal sized chunks
-        while(i + chunkSize < sigsrc.length):
-            self.__chunks.append([i,i + chunkSize])
+        while i + chunkSize < sigsrc.length:
+            self.__chunks.append([i, i + chunkSize])
             i += chunkSize 
 
-        # has it exhaused the whole signal?
+        # has it exhausted the whole signal?
         if len(self.__chunks) == 0:
-            self.__chunks.append([0,sigsrc.length])
-        else: # if not put the remaining as another smaller chunk
+            self.__chunks.append([0, sigsrc.length])
+        else:  # if not put the remaining as another smaller chunk
             if not self.__chunks[-1][1] == sigsrc.length:
-                self.__chunks.append([self.__chunks[-1][1],sigsrc.length])
+                self.__chunks.append([self.__chunks[-1][1], sigsrc.length])
 
     @property
     def getChunks(self):
