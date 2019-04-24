@@ -54,7 +54,7 @@ class decode_afsk1200:
 
         return self.__useful
 
-    @property   
+    @property
     def getMsg(self):
         '''Get the message from data
 
@@ -90,15 +90,15 @@ class decode_afsk1200:
                 # store signal
                 sig.extend(chunkSig)
 
-            ## FM demodulate
+            # FM demodulate
             sig.funcApply(fmDemodObj.demod)
             logging.info('FM demod complete')
 
-            ## APRS has two freqs 1200 and 2200, hence create a butter band pass filter from 1200-500 to 2200+500
+            # APRS has two freqs 1200 and 2200, hence create a butter band pass filter from 1200-500 to 2200+500
             sig.filter(filters.butter(sig.sampRate, 1200 - 500, 2200 + 500, typeFlt=constants.FLT_BP))
             logging.info('Filtering complete')
 
-            ## plot the signal
+            # plot the signal
             if self.__graphs == 1:
                 plt.plot(sig.signal)
                 plt.show()

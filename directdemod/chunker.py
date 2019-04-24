@@ -62,7 +62,7 @@ class chunker:
 
         self.__vars[name] = value
 
-    def get(self, name, init = None):
+    def get(self, name, init=None):
 
         '''get a variable value for to be used during chunking
 
