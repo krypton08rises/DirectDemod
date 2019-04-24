@@ -17,12 +17,13 @@ def getSHIFT():
     i = 53
 
     while i<64:
-        angular_velocity[i] = angular_velocity + line2[i]
+        angular_velocity = angular_velocity + line2[i]
         i=i+1
 
-    velocity_of_cubesat = int(angular_velocity)*R)
+    velocity_of_cubesat = int(angular_velocity)*R*7.2722e-5
 
     # R is the radius of the earth #
+    # 1 revolution per day = 7.277e-5 radians per second #
 
     doppler_shift = (C/(C-velocity_of_cubesat))*F
 
