@@ -114,7 +114,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$USER_HOME$/PycharmProjects/projects/hangman/TLE_input.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="99">
@@ -126,11 +126,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myconstants.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+              <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -480,6 +480,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/myconstants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/PycharmProjects/projects/hangman/TLE_input.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
@@ -487,13 +494,6 @@
           <folding>
             <marker date="1556095644401" expanded="true" signature="29:68" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myconstants.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
         </state>
       </provider>
     </entry>
